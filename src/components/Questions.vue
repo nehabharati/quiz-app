@@ -173,4 +173,15 @@ button:disabled {
   background-color: #2aab2a;
   color: white;
 }
+@media screen and (max-width: 640px) {
+  .query-container {
+    padding: 2em;
+    margin: 0 auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  .answers {
+    width: 100%;
+  }
+}
 </style>
